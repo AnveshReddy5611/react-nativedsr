@@ -1,11 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Home from './components/Home';
+import Instagram from './instagram-feed/InstagramFeed';
+import MusicPlayer from './music-player/MusicPlayer';
 
+import WorldwideNews from './news/WorldwideNews';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      {/* <Home/> */}
+      {/* <WorldwideNews/>
+       */}
+       {/* <MusicPlayer/> */}
+       <Instagram/>
     </View>
   );
 }
